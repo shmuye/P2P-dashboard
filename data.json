@@ -1,0 +1,32 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "senderName": "shumuye",
+            "receiverName": "Daniel",
+            "amount": 10.0,
+            "status": "pending"
+        },
+        {
+            "id": 2,
+            "senderName": "shumuye",
+            "receiverName": "haile",
+            "amount": 20.0,
+            "status": "completed"
+        },
+        {
+            "id": 3,
+            "senderName": "Samuel",
+            "receiverName": "Amare",
+            "amount": 30.0,
+            "status": "failed"
+        },
+        {
+            "id": 4,
+            "senderName": "Ermias",
+            "receiverName": "Yonas",
+            "amount": 15.0,
+            "status": "pending"
+        }
+    ]
+}
