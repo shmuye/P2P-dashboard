@@ -1,9 +1,18 @@
-import React from 'react'
+// App.js
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Dashboard from './Pages/Dashboard';
+import TransactionPage from './pages/TransactionPage';
 
-const App = () => {
+function App() {
   return (
-    <div>App</div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/transaction/:id" element={<TransactionPage />} />
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
